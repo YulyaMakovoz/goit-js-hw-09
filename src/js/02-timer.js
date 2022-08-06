@@ -1,12 +1,12 @@
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 
-deadLine = document.querySelector('#datetime-picker');
-daysEl = document.querySelector('span[data-days]');
-hoursEl = document.querySelector('span[data-hours]');
-minutesEl = document.querySelector('span[data-minutes]');
-secondsEl = document.querySelector('span[data-seconds]');
-btnStart = document.querySelector('button[data-start]')
+const deadLine = document.querySelector('#datetime-picker');
+const daysEl = document.querySelector('span[data-days]');
+const hoursEl = document.querySelector('span[data-hours]');
+const minutesEl = document.querySelector('span[data-minutes]');
+const secondsEl = document.querySelector('span[data-seconds]');
+const btnStart = document.querySelector('button[data-start]')
 
 let startTime = Date.now();
 let savedData;
